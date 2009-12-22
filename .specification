@@ -1,0 +1,78 @@
+--- !ruby/object:Gem::Specification 
+name: resmarkee
+version: !ruby/object:Gem::Version 
+  version: 0.1.1
+platform: ruby
+authors: 
+- Brandon Calloway
+autorequire: 
+bindir: bin
+cert_chain: []
+
+date: 2009-12-03 00:00:00 -05:00
+default_executable: 
+dependencies: []
+
+description: Connect to Resmark Reservation Web Services
+email: brandon@scullytown.com
+executables: []
+
+extensions: []
+
+extra_rdoc_files: 
+- README.textile
+- lib/ReadOnlyWebServiceDispatcherService.rb
+- lib/ReadOnlyWebServiceDispatcherServiceClient.rb
+- lib/ReadOnlyWebServiceDispatcherServiceDriver.rb
+- lib/resmarkee.rb
+files: 
+- Manifest
+- README.textile
+- Rakefile
+- generators/booking_generator.rb
+- generators/templates/controllers/bookings_controller.rb
+- generators/templates/helpers/bookings_helper.rb
+- generators/templates/images/calendar.png
+- generators/templates/models/booking.rb
+- generators/templates/views/bookings/_activities.html.haml
+- generators/templates/views/bookings/index.html.haml
+- lib/ReadOnlyWebServiceDispatcherService.rb
+- lib/ReadOnlyWebServiceDispatcherServiceClient.rb
+- lib/ReadOnlyWebServiceDispatcherServiceDriver.rb
+- lib/resmarkee.rb
+- resmarkee.gemspec
+has_rdoc: true
+homepage: http://github.com/scullygroup/resmarkee
+licenses: []
+
+post_install_message: 
+rdoc_options: 
+- --line-numbers
+- --inline-source
+- --title
+- Resmarkee
+- --main
+- README.textile
+require_paths: 
+- lib
+required_ruby_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "0"
+  version: 
+required_rubygems_version: !ruby/object:Gem::Requirement 
+  requirements: 
+  - - ">="
+    - !ruby/object:Gem::Version 
+      version: "1.2"
+  version: 
+requirements: []
+
+rubyforge_project: resmarkee
+rubygems_version: 1.3.5
+signing_key: 
+specification_version: 3
+summary: Connect to Resmark Reservation Web Services
+test_files: []
+
