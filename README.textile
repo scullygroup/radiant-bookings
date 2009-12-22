@@ -53,3 +53,5 @@ Wherever you want to place the booking widget, insert the following radius tag:
 <pre><code>
   <r:bookings />
 </code></pre>
+
+Copyright (c) 2009 Scully Group, released under the MIT License
